@@ -7,7 +7,7 @@ import (
 
 	. "github.com/pingcap/check"
 	"github.com/pingcap/kvproto/pkg/import_sstpb"
-	"github.com/pingcap/tidb/tablecodec"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/tablecodec"
 
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/restore"
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/rtree"

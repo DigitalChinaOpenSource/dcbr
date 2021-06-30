@@ -8,7 +8,7 @@ import (
 
 	. "github.com/pingcap/check"
 	filter "github.com/pingcap/tidb-tools/pkg/table-filter"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/util/testleak"
 
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/gluetidb"
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/mock"

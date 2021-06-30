@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/tablecodec"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/tablecodec"
 	"github.com/tikv/pd/pkg/codec"
 	"github.com/tikv/pd/server/schedule/placement"
 

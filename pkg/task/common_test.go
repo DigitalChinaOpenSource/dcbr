@@ -5,7 +5,7 @@ package task
 import (
 	"fmt"
 
-	"github.com/pingcap/tidb/config"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/config"
 
 	. "github.com/pingcap/check"
 	"github.com/spf13/pflag"

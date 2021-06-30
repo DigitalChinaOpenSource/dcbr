@@ -24,7 +24,7 @@ import (
 	"github.com/pingcap/log"
 	timodel "github.com/DigitalChinaOpenSource/DCParser/model"
 	"github.com/DigitalChinaOpenSource/DCParser/mysql"
-	"github.com/pingcap/tidb/types"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/types"
 	"go.uber.org/zap"
 
 	berrors "github.com/DigitalChinaOpenSource/dcbr/pkg/errors"

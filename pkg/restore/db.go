@@ -10,7 +10,7 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
 	"github.com/DigitalChinaOpenSource/DCParser/model"
-	"github.com/pingcap/tidb/kv"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/kv"
 	"go.uber.org/zap"
 
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/glue"

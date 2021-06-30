@@ -13,8 +13,8 @@ import (
 	"github.com/pingcap/kvproto/pkg/metapb"
 	"github.com/pingcap/kvproto/pkg/pdpb"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/util/codec"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/tablecodec"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/util/codec"
 	"go.uber.org/zap"
 
 	berrors "github.com/DigitalChinaOpenSource/dcbr/pkg/errors"

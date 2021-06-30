@@ -13,7 +13,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/util/logutil"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 

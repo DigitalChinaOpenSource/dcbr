@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// This file is copied from pingcap/tidb/store/tikv/pd_codec.go https://git.io/Je1Ww
+// This file is copied from DigitalChinaOpenSource/TiDB-for-PostgreSQL/store/tikv/pd_codec.go https://git.io/Je1Ww
 
 package main
 
@@ -20,7 +20,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/metapb"
-	"github.com/pingcap/tidb/util/codec"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/util/codec"
 	pd "github.com/tikv/pd/client"
 )
 

@@ -10,8 +10,8 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/backup"
 	"github.com/DigitalChinaOpenSource/DCParser/model"
-	"github.com/pingcap/tidb/statistics/handle"
-	"github.com/pingcap/tidb/tablecodec"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/statistics/handle"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/tablecodec"
 )
 
 const (

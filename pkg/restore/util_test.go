@@ -10,8 +10,8 @@ import (
 	"github.com/pingcap/kvproto/pkg/backup"
 	"github.com/pingcap/kvproto/pkg/import_sstpb"
 	"github.com/pingcap/kvproto/pkg/metapb"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/util/codec"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/tablecodec"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/util/codec"
 
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/restore"
 )

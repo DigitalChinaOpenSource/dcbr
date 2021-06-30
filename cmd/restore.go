@@ -5,7 +5,7 @@ package cmd
 import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/session"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/session"
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 

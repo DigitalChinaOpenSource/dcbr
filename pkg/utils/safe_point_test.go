@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/util/testleak"
 	pd "github.com/tikv/pd/client"
 
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/utils"

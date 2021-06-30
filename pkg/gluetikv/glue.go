@@ -5,10 +5,10 @@ package gluetikv
 import (
 	"context"
 
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/tikv"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/config"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/domain"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/kv"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/store/tikv"
 	pd "github.com/tikv/pd/client"
 
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/glue"

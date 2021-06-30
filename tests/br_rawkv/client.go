@@ -12,8 +12,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/store/tikv"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/config"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/store/tikv"
 	"go.uber.org/zap"
 )
 

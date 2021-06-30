@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb/types"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/types"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

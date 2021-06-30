@@ -10,7 +10,7 @@ import (
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/kvproto/pkg/backup"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/config"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/config"
 	"github.com/spf13/pflag"
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
@@ -161,7 +161,7 @@ func RunRestore(c context.Context, g glue.Glue, cmdName string, cfg *RestoreConf
 		ID:       utils.MakeSafePointID(),
 	}
 	// restore checksum will check safe point with its start ts, see details at
-	// https://github.com/pingcap/tidb/blob/180c02127105bed73712050594da6ead4d70a85f/store/tikv/kv.go#L186-L190
+	// https://github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/blob/180c02127105bed73712050594da6ead4d70a85f/store/tikv/kv.go#L186-L190
 	// so, we should keep the safe point unchangeable. to avoid GC life time is shorter than transaction duration.
 	utils.StartServiceSafePointKeeper(ctx, mgr.GetPDClient(), sp)
 

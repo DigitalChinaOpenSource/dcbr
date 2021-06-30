@@ -12,7 +12,7 @@ import (
 	"github.com/pingcap/kvproto/pkg/backup"
 	"github.com/pingcap/log"
 	"github.com/DigitalChinaOpenSource/DCParser/model"
-	"github.com/pingcap/tidb/kv"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/kv"
 	"github.com/pingcap/tipb/go-tipb"
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"

@@ -18,9 +18,9 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/meta/autoid"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/types"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/meta/autoid"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/table"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/types"
 	"go.uber.org/zap"
 
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/kv"

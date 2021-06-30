@@ -15,9 +15,9 @@ import (
 	"github.com/pingcap/log"
 	"github.com/DigitalChinaOpenSource/DCParser/model"
 	"github.com/DigitalChinaOpenSource/DCParser/mysql"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/types"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/sessionctx/stmtctx"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/sessionctx/variable"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/types"
 	"github.com/spf13/pflag"
 	"go.uber.org/zap"
 

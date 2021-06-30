@@ -11,8 +11,8 @@ import (
 	"github.com/DigitalChinaOpenSource/DCParser/model"
 	"github.com/DigitalChinaOpenSource/DCParser/mysql"
 	"github.com/DigitalChinaOpenSource/DCParser/types"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/tablecodec"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/util/testleak"
 	"google.golang.org/grpc/keepalive"
 
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/gluetidb"

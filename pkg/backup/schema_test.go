@@ -9,9 +9,9 @@ import (
 
 	. "github.com/pingcap/check"
 	filter "github.com/pingcap/tidb-tools/pkg/table-filter"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/util/testkit"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/sessionctx/variable"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/util/testkit"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/util/testleak"
 
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/backup"
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/mock"

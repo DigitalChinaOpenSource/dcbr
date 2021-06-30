@@ -9,10 +9,10 @@ import (
 
 	. "github.com/pingcap/check"
 	"github.com/DigitalChinaOpenSource/DCParser/model"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/util/testkit"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/kv"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/sessionctx/variable"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/util/testkit"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/util/testleak"
 
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/checksum"
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/mock"

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/util/testleak"
 
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/mock"
 )

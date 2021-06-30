@@ -10,9 +10,9 @@ import (
 
 	. "github.com/pingcap/check"
 	"github.com/DigitalChinaOpenSource/DCParser/model"
-	"github.com/pingcap/tidb/meta/autoid"
-	"github.com/pingcap/tidb/util/testkit"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/meta/autoid"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/util/testkit"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/util/testleak"
 
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/backup"
 	"github.com/DigitalChinaOpenSource/dcbr/pkg/gluetidb"

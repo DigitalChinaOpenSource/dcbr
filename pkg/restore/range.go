@@ -9,7 +9,7 @@ import (
 	"github.com/pingcap/kvproto/pkg/import_sstpb"
 	"github.com/pingcap/kvproto/pkg/metapb"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb/tablecodec"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/tablecodec"
 	"go.uber.org/zap"
 
 	berrors "github.com/DigitalChinaOpenSource/dcbr/pkg/errors"

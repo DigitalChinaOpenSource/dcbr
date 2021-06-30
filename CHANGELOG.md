@@ -1,7 +1,7 @@
 # BR (Backup and Restore) Change Log
 All notable changes to this project are documented in this file.
 See also,
-- [TiDB Changelog](https://github.com/pingcap/tidb/blob/master/CHANGELOG.md),
+- [TiDB Changelog](https://github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/blob/master/CHANGELOG.md),
 - [TiKV Changelog](https://github.com/tikv/tikv/blob/master/CHANGELOG.md),
 - [PD Changelog](https://github.com/pingcap/pd/blob/master/CHANGELOG.md).
 

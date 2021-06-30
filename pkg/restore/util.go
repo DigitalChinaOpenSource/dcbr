@@ -17,8 +17,8 @@ import (
 	"github.com/pingcap/kvproto/pkg/metapb"
 	"github.com/pingcap/log"
 	"github.com/DigitalChinaOpenSource/DCParser/model"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/util/codec"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/tablecodec"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/util/codec"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 

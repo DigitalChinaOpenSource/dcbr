@@ -6,8 +6,8 @@ import (
 	"context"
 
 	"github.com/DigitalChinaOpenSource/DCParser/model"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/kv"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/domain"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/kv"
 	pd "github.com/tikv/pd/client"
 )
 

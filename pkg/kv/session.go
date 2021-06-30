@@ -19,9 +19,9 @@ import (
 
 	"github.com/DigitalChinaOpenSource/DCParser/model"
 	"github.com/DigitalChinaOpenSource/DCParser/mysql"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/variable"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/kv"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/sessionctx"
+	"github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/sessionctx/variable"
 )
 
 // Pair is a pair of key and value.

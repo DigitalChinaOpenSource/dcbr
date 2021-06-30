@@ -18,7 +18,7 @@ import (
 
 	. "github.com/pingcap/check"
 	"github.com/DigitalChinaOpenSource/DCParser/mysql"
-	tidbkv "github.com/pingcap/tidb/kv"
+	tidbkv "github.com/DigitalChinaOpenSource/TiDB-for-PostgreSQL/kv"
 )
 
 type kvSuite struct{}

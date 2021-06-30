@@ -24,7 +24,7 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/backup"
 
-	berrors "github.com/pingcap/br/pkg/errors"
+	berrors "github.com/DigitalChinaOpenSource/dcbr/pkg/errors"
 )
 
 const (

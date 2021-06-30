@@ -22,12 +22,12 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	berrors "github.com/pingcap/br/pkg/errors"
-	"github.com/pingcap/br/pkg/glue"
-	"github.com/pingcap/br/pkg/logutil"
-	"github.com/pingcap/br/pkg/rtree"
-	"github.com/pingcap/br/pkg/summary"
-	"github.com/pingcap/br/pkg/utils"
+	berrors "github.com/DigitalChinaOpenSource/dcbr/pkg/errors"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/glue"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/logutil"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/rtree"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/summary"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/utils"
 )
 
 var (

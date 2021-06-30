@@ -12,9 +12,9 @@ import (
 	"github.com/pingcap/log"
 	"go.uber.org/zap"
 
-	berrors "github.com/pingcap/br/pkg/errors"
-	"github.com/pingcap/br/pkg/glue"
-	"github.com/pingcap/br/pkg/rtree"
+	berrors "github.com/DigitalChinaOpenSource/dcbr/pkg/errors"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/glue"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/rtree"
 )
 
 // pushDown wraps a backup task.

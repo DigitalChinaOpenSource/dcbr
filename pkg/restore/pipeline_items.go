@@ -11,9 +11,9 @@ import (
 	"github.com/DigitalChinaOpenSource/DCParser/model"
 	"go.uber.org/zap"
 
-	"github.com/pingcap/br/pkg/glue"
-	"github.com/pingcap/br/pkg/rtree"
-	"github.com/pingcap/br/pkg/utils"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/glue"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/rtree"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/utils"
 )
 
 const (

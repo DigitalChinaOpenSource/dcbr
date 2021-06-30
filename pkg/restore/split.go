@@ -17,9 +17,9 @@ import (
 	"github.com/pingcap/tidb/util/codec"
 	"go.uber.org/zap"
 
-	berrors "github.com/pingcap/br/pkg/errors"
-	"github.com/pingcap/br/pkg/logutil"
-	"github.com/pingcap/br/pkg/rtree"
+	berrors "github.com/DigitalChinaOpenSource/dcbr/pkg/errors"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/logutil"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/rtree"
 )
 
 // Constants for split retry machinery.

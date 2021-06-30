@@ -12,9 +12,9 @@ import (
 	"github.com/pingcap/tidb/tablecodec"
 	"go.uber.org/zap"
 
-	berrors "github.com/pingcap/br/pkg/errors"
-	"github.com/pingcap/br/pkg/logutil"
-	"github.com/pingcap/br/pkg/rtree"
+	berrors "github.com/DigitalChinaOpenSource/dcbr/pkg/errors"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/logutil"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/rtree"
 )
 
 // SortRanges checks if the range overlapped and sort them.

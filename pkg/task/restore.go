@@ -15,14 +15,14 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/pingcap/br/pkg/conn"
-	berrors "github.com/pingcap/br/pkg/errors"
-	"github.com/pingcap/br/pkg/glue"
-	"github.com/pingcap/br/pkg/pdutil"
-	"github.com/pingcap/br/pkg/restore"
-	"github.com/pingcap/br/pkg/storage"
-	"github.com/pingcap/br/pkg/summary"
-	"github.com/pingcap/br/pkg/utils"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/conn"
+	berrors "github.com/DigitalChinaOpenSource/dcbr/pkg/errors"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/glue"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/pdutil"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/restore"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/storage"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/summary"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/utils"
 )
 
 const (

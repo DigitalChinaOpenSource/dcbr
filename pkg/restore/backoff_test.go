@@ -12,10 +12,10 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	berrors "github.com/pingcap/br/pkg/errors"
-	"github.com/pingcap/br/pkg/mock"
-	"github.com/pingcap/br/pkg/restore"
-	"github.com/pingcap/br/pkg/utils"
+	berrors "github.com/DigitalChinaOpenSource/dcbr/pkg/errors"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/mock"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/restore"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/utils"
 )
 
 var _ = Suite(&testBackofferSuite{})

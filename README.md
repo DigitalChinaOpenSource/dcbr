@@ -1,13 +1,13 @@
 # BR
 
 [![Build Status](https://internal.pingcap.net/idc-jenkins/job/build_br_multi_branch/job/release-4.0/badge/icon)](https://internal.pingcap.net/idc-jenkins/job/build_br_multi_branch/job/release-4.0/)
-[![codecov](https://codecov.io/gh/pingcap/br/branch/master/graph/badge.svg)](https://codecov.io/gh/pingcap/br)
-[![LICENSE](https://img.shields.io/github/license/pingcap/br.svg)](https://github.com/pingcap/br/blob/master/LICENSE)
+[![codecov](https://codecov.io/gh/DigitalChinaOpenSource/dcbr/branch/master/graph/badge.svg)](https://codecov.io/gh/DigitalChinaOpenSource/dcbr)
+[![LICENSE](https://img.shields.io/github/license/DigitalChinaOpenSource/dcbr.svg)](https://github.com/DigitalChinaOpenSource/dcbr/blob/master/LICENSE)
 [![Language](https://img.shields.io/badge/Language-Go-blue.svg)](https://golang.org/)
-[![GoDoc](https://img.shields.io/badge/Godoc-reference-blue.svg)](https://godoc.org/github.com/pingcap/br)
-[![Go Report Card](https://goreportcard.com/badge/github.com/pingcap/br)](https://goreportcard.com/report/github.com/pingcap/br)
-[![GitHub release](https://img.shields.io/github/tag/pingcap/br.svg?label=release)](https://github.com/pingcap/br/releases)
-[![GitHub release date](https://img.shields.io/github/release-date/pingcap/br.svg)](https://github.com/pingcap/br/releases)
+[![GoDoc](https://img.shields.io/badge/Godoc-reference-blue.svg)](https://godoc.org/github.com/DigitalChinaOpenSource/dcbr)
+[![Go Report Card](https://goreportcard.com/badge/github.com/DigitalChinaOpenSource/dcbr)](https://goreportcard.com/report/github.com/DigitalChinaOpenSource/dcbr)
+[![GitHub release](https://img.shields.io/github/tag/DigitalChinaOpenSource/dcbr.svg?label=release)](https://github.com/DigitalChinaOpenSource/dcbr/releases)
+[![GitHub release date](https://img.shields.io/github/release-date/DigitalChinaOpenSource/dcbr.svg)](https://github.com/DigitalChinaOpenSource/dcbr/releases)
 
 **Backup & Restore (BR)** is a command-line tool for distributed backup and restoration of the TiDB cluster data.
 

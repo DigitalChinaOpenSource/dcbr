@@ -21,12 +21,12 @@ import (
 	"github.com/tikv/pd/pkg/mock/mockid"
 	"go.uber.org/zap"
 
-	berrors "github.com/pingcap/br/pkg/errors"
-	"github.com/pingcap/br/pkg/logutil"
-	"github.com/pingcap/br/pkg/restore"
-	"github.com/pingcap/br/pkg/rtree"
-	"github.com/pingcap/br/pkg/task"
-	"github.com/pingcap/br/pkg/utils"
+	berrors "github.com/DigitalChinaOpenSource/dcbr/pkg/errors"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/logutil"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/restore"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/rtree"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/task"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/utils"
 )
 
 // NewDebugCommand return a debug subcommand.

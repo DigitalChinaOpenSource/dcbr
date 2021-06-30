@@ -9,9 +9,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/pingcap/br/pkg/glue"
-	"github.com/pingcap/br/pkg/restore"
-	"github.com/pingcap/br/pkg/storage"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/glue"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/restore"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/storage"
 )
 
 const (

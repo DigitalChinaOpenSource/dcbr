@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     default-mysql-client \
     && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /go/src/github.com/pingcap/br
+WORKDIR /go/src/github.com/DigitalChinaOpenSource/dcbr
 COPY . .
 
 COPY --from=go-ycsb-builder /go/src/github.com/pingcap/go-ycsb/bin/go-ycsb /go/bin/go-ycsb

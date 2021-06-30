@@ -17,11 +17,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/pingcap/br/pkg/gluetidb"
-	"github.com/pingcap/br/pkg/redact"
-	"github.com/pingcap/br/pkg/summary"
-	"github.com/pingcap/br/pkg/task"
-	"github.com/pingcap/br/pkg/utils"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/gluetidb"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/redact"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/summary"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/task"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/utils"
 )
 
 var (

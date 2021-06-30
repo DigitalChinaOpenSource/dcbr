@@ -10,9 +10,9 @@ import (
 	filter "github.com/pingcap/tidb-tools/pkg/table-filter"
 	"github.com/pingcap/tidb/util/testleak"
 
-	"github.com/pingcap/br/pkg/gluetidb"
-	"github.com/pingcap/br/pkg/mock"
-	"github.com/pingcap/br/pkg/restore"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/gluetidb"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/mock"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/restore"
 )
 
 type testLogRestoreSuite struct {

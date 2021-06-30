@@ -6,7 +6,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/br/pkg/pdutil"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/pdutil"
 
 	. "github.com/pingcap/check"
 	"github.com/pingcap/kvproto/pkg/metapb"

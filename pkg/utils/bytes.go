@@ -13,7 +13,7 @@
 
 package utils
 
-import "github.com/pingcap/br/pkg/manual"
+import "github.com/DigitalChinaOpenSource/dcbr/pkg/manual"
 
 const (
 	bigValueSize = 1 << 16 // 64K

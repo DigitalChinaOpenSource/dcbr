@@ -30,12 +30,12 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/pingcap/br/pkg/cdclog"
-	berrors "github.com/pingcap/br/pkg/errors"
-	"github.com/pingcap/br/pkg/kv"
-	"github.com/pingcap/br/pkg/logutil"
-	"github.com/pingcap/br/pkg/storage"
-	"github.com/pingcap/br/pkg/utils"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/cdclog"
+	berrors "github.com/DigitalChinaOpenSource/dcbr/pkg/errors"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/kv"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/logutil"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/storage"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/utils"
 )
 
 const (

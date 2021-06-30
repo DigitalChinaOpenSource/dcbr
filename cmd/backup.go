@@ -10,10 +10,10 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 
-	"github.com/pingcap/br/pkg/gluetikv"
-	"github.com/pingcap/br/pkg/summary"
-	"github.com/pingcap/br/pkg/task"
-	"github.com/pingcap/br/pkg/utils"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/gluetikv"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/summary"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/task"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/utils"
 )
 
 func runBackupCommand(command *cobra.Command, cmdName string) error {

@@ -22,11 +22,11 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/keepalive"
 
-	berrors "github.com/pingcap/br/pkg/errors"
-	"github.com/pingcap/br/pkg/glue"
-	"github.com/pingcap/br/pkg/logutil"
-	"github.com/pingcap/br/pkg/pdutil"
-	"github.com/pingcap/br/pkg/utils"
+	berrors "github.com/DigitalChinaOpenSource/dcbr/pkg/errors"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/glue"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/logutil"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/pdutil"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/utils"
 )
 
 const (

@@ -20,9 +20,9 @@ import (
 	"github.com/pingcap/tidb/util/codec"
 	pd "github.com/tikv/pd/client"
 
-	"github.com/pingcap/br/pkg/backup"
-	"github.com/pingcap/br/pkg/conn"
-	"github.com/pingcap/br/pkg/pdutil"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/backup"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/conn"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/pdutil"
 )
 
 type testBackup struct {

@@ -15,10 +15,10 @@ import (
 	"github.com/pingcap/tidb/util/testleak"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/pingcap/br/pkg/gluetidb"
-	"github.com/pingcap/br/pkg/mock"
-	"github.com/pingcap/br/pkg/restore"
-	"github.com/pingcap/br/pkg/utils"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/gluetidb"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/mock"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/restore"
+	"github.com/DigitalChinaOpenSource/dcbr/pkg/utils"
 )
 
 var _ = Suite(&testRestoreClientSuite{})
